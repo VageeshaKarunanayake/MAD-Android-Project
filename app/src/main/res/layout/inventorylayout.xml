@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back"
+        android:minHeight="600dp">
+
+
+        <Button
+            android:id="@+id/Add"
+            android:layout_width="140dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="16dp"
+            android:background="@android:color/black"
+            android:onClick="AddintButton"
+            android:text="@string/add"
+            android:textColor="@android:color/background_light"
+            app:layout_constraintBaseline_toBaselineOf="@+id/Ireset"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/Ireset"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:background="@android:color/black"
+            android:onClick="ResetintButton"
+            android:text="@string/reset"
+            android:textColor="@android:color/background_light"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.486"
+            app:layout_constraintStart_toEndOf="@+id/Add" />
+
+        <TextView
+            android:id="@+id/indexNO"
+            android:layout_width="68dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/ProductId"
+            app:layout_constraintBaseline_toBaselineOf="@+id/editIndexNo"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/editIndexNo"
+            android:layout_width="208dp"
+            android:layout_height="36dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="84dp"
+            android:background="@drawable/back"
+            android:ems="10"
+            android:hint="@string/ProductId"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.712"
+            app:layout_constraintStart_toEndOf="@+id/indexNO"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="224dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/InvenMain"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/ItemName"
+            android:layout_width="82dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/ItemName"
+            app:layout_constraintBaseline_toBaselineOf="@+id/editIndexName"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/editIndexName"
+            android:layout_width="208dp"
+            android:layout_height="39dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="148dp"
+            android:background="@drawable/back"
+            android:ems="10"
+            android:hint="@string/ItemName"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.657"
+            app:layout_constraintStart_toEndOf="@+id/ItemName"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/Brand"
+            android:layout_width="68dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/brand"
+            app:layout_constraintBaseline_toBaselineOf="@+id/editBrand"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/Warrenty"
+            android:layout_width="68dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/warrenty"
+            app:layout_constraintBaseline_toBaselineOf="@+id/editWarrenty"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/UntiPrice"
+            android:layout_width="68dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/unitPrice"
+            app:layout_constraintBaseline_toBaselineOf="@+id/editUnitPrice"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/editBrand"
+            android:layout_width="208dp"
+            android:layout_height="39dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="216dp"
+            android:background="@drawable/back"
+            android:ems="10"
+            android:hint="@string/brand"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.714"
+            app:layout_constraintStart_toEndOf="@+id/Brand"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editWarrenty"
+            android:layout_width="208dp"
+            android:layout_height="39dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="272dp"
+            android:background="@drawable/back"
+            android:ems="10"
+            android:hint="@string/warrenty"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.714"
+            app:layout_constraintStart_toEndOf="@+id/Warrenty"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editUnitPrice"
+            android:layout_width="208dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="328dp"
+            android:background="@drawable/back"
+            android:ems="10"
+            android:hint="@string/unitPrice"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/UntiPrice"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

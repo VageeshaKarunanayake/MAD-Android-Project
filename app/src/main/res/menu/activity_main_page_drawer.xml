@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Inventory"
+            android:icon="@drawable/inventory"
+            android:title="Inventory" />
+        <item
+            android:id="@+id/Empolyeee_Manager"
+            android:icon="@drawable/employee"
+            android:title="Empolyeee Manager" />
+        <item
+            android:id="@+id/Customer_Manager"
+            android:icon="@drawable/customer"
+            android:title="Customer Manager"
+            />
+        <item
+            android:id="@+id/Order_Manager"
+            android:icon="@drawable/order"
+            android:title="Order Manager"/>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

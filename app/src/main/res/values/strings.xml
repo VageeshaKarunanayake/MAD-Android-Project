@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Optimus</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="reset">Reset</string>
+    <string name="add">Add</string>
+    <string name="orderform">Order Form</string>
+    <string name="orderID">Order ID</string>
+    <string name="description">Description</string>
+    <string name="customerid">Customer ID</string>
+    <string name="customername">Customer Name</string>
+    <string name="customerphone">Customer Phone</string>
+    <string name="customeraddress">Customer Address</string>
+    <string name="gender">Gender</string>
+    <string name="nic">NIC</string>
+    <string name="dateofbirth">Date of Birth</string>
+    <string name="InvenMain">Inventory Form</string>
+    <string name="ItemName">Item Name</string>
+    <string name="brand">Brand</string>
+    <string name="warrenty">Warrenty</string>
+    <string name="unitPrice">Unit Price</string>
+    <string name="ProductId">Product ID</string>
+    <string name="productID">Product ID</string>
+    <string name="quantity">Quantity</string>
+    <string name="totalprice">Total Price</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+
+    <string name="addProduct">Add Products</string>
+    =======
+    <string name="insert">Insert</string>
+    <string name="employeeform">Employee Form</string>
+    <string name="empID">Emp ID</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="address">Address</string>
+    <string name="contactNumber">Contact Number</string>
+    <string name="dob">Date of Birth</string>
+    <string name="position">Position</string>
+    >>>>>>> bca6797f58432e6a835d4277d3916260c891931e
+</resources>
